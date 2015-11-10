@@ -1,0 +1,67 @@
+
+    ______ _ _      __  __       _               
+   |  ____(_) |    |  \/  |     | |              
+   | |__   _| | ___| \  / | __ _| | _____ _ __   
+   |  __| | | |/ _ \ |\/| |/ _` | |/ / _ \ '__|  
+   | |    | | |  __/ |  | | (_| |   <  __/ |     
+   |_|    |_|_|\___|_|  |_|\__,_|_|\_\___|_|     
+   _____                     _ _______        _   
+  / ____|                   | |__   __|      | |  
+ | (___  _ __   ___  ___  __| |  | | ___  ___| |_ 
+  \___ \| '_ \ / _ \/ _ \/ _` |  | |/ _ \/ __| __|
+  ____) | |_) |  __/  __/ (_| |  | |  __/\__ \ |_ 
+ |_____/| .__/ \___|\___|\__,_|  |_|\___||___/\__|
+        | |                                       
+        |_|                                       
+
+== FileMaker SpeedTest
+Standard test suite to put FileMaker client and server through record creation, deletion, indexing etc.
+
+== Why do you need this?
+* tool to test speed of filemaker hardware and network independent of any applications
+* compare different hardware
+* compare different networks
+* compare different filemaker versions
+ 
+== Requirements
+    Web Server 12+
+
+== Installation
+Just run NeoCode_SpeedTest.fmp12 on your server
+
+== Run It
+Admin user can run the test and check the results
+  login: admin
+  password: admin
+  
+Test user can only run the test.
+  login: user
+  password: user
+  
+== Test suite
+1 Insert records with random integer values
+
+2 Update records with random integer values
+
+3 Perform Find
+
+4 Sort records with integer values
+
+5 Delete records
+
+6 Insert records with random string values
+
+7 Perform find in portal
+
+8 Sort records with string values
+
+9 Sort records with string values and replace fields' contents
+
+10 Sort indexed records with string values and replace fields' contents
+
+== Test results
+Test scripts are performed on client and on server.
+
+Application architecture and version, host version are stored together with the results for future analysis.
+
+Additionally  min, average and max test results are calculated and shown on result page.
