@@ -14,7 +14,7 @@
         | |                                       
         |_|                                       
 
-== FileMaker SpeedTest
+== NeoCode SpeedTest
 Standard test suite to put FileMaker client and server through record creation, deletion, indexing etc.
 
 == Why do you need this?
@@ -24,12 +24,13 @@ Standard test suite to put FileMaker client and server through record creation, 
 * compare different filemaker versions
  
 == Requirements
-    Web Server 12+
+    FileMaker Server 12 or greater
+    FileMaker Server 14 recommended
 
 == Installation
-Just run NeoCode_SpeedTest.fmp12 on your server
+    Upload NeoCode_SpeedTest.fmp12 to your server
 
-== Run It
+== Credentials
 Admin user can run the test and check the results
   login: admin
   password: admin
@@ -37,8 +38,16 @@ Admin user can run the test and check the results
 Test user can only run the test.
   login: user
   password: user
-  
-== Test suite
+
+== Usage
+1 Login as test user with user / user
+2 Create a new test
+3 Specify 100 records to test
+4 Run test
+5 Wait
+6 ?
+7 Profit
+== Complete Test suite
 1 Insert records with random integer values
 
 2 Update records with random integer values
@@ -64,4 +73,4 @@ Test scripts are performed on client and on server.
 
 Application architecture and version, host version are stored together with the results for future analysis.
 
-Additionally  min, average and max test results are calculated and shown on result page.
+Additionally min, average and max test results are calculated and shown on result page.
