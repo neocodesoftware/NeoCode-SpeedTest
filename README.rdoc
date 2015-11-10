@@ -41,12 +41,26 @@ Test user can only run the test.
 
 == Usage
 1 Login as test user with user / user
+
 2 Create a new test
+
 3 Specify 100 records to test
+
 4 Run test
+
 5 Wait
+
 6 ?
-7 Profit
+
+7 Profit - I mean review results
+
+== TO DO
+1 scheduled tests
+
+2 compare tests over time
+
+3 set target test results and alert if over
+
 == Complete Test suite
 1 Insert records with random integer values
 
