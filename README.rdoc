@@ -40,26 +40,24 @@ Test user can only run the test.
   password: user
 
 == Usage
-1 Login as test user with user / user
+1 Upload file to server
 
-2 Create a new test
+2 Login as test user with user / user
 
-3 Specify 100 records to test
+3 Create a new test
 
-4 Run test
+4 Specify 100 records to test
 
-5 Wait
+5 Run test
 
-6 ?
+6 Wait
 
-7 Profit - I mean review results
+7 Review results by clicking List button
 
 == TO DO
 1 scheduled tests
 
-2 compare tests over time
-
-3 set target test results and alert if over
+2 set target test results and alert if over
 
 == Complete Test suite
 1 Insert records with random integer values
